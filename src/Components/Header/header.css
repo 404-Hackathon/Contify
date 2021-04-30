@@ -1,0 +1,20 @@
+.header-Container {
+  background-color: #140f20;
+  color: white;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  height: 50px;
+  z-index: 20;
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+h1 {
+  margin: 0;
+}
+.Logo {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+}

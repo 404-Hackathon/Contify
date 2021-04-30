@@ -1,0 +1,21 @@
+.details {
+  width: 1200px;
+  height: 100vh;
+  background-color: black;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 20px;
+}
+.P-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.content {
+  border: 3px solid rgb(85, 84, 84);
+  border-radius: 50px;
+  display: flex;
+}
