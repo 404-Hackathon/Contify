@@ -7,21 +7,33 @@ import physicsIMG4 from "./physics-chalkboard_cropped.jpg";
 import "./details.css";
 function physics(props) {
   return (
-    <div className="details">
+    <section class="curved">
       <h1>Physics</h1>
       <h2>Teacher: Amani alkandery </h2>
       <div className="content">
-        <div className="single">
-          <a href="https://drive.google.com/file/d/1WLD7gWF2IrNlI16HxjJyuV2kZ4aKlZEj/view">
-            <img className="P-img" src={Pimg}></img>
-            <h5>Grade 11 - Second Term Notes</h5>
-          </a>
+        <div className="for-the-btn">
+          <div className="single">
+            <a href="https://drive.google.com/file/d/1WLD7gWF2IrNlI16HxjJyuV2kZ4aKlZEj/view">
+              <img className="P-img" src={Pimg}></img>
+              <h5>Grade 11 - Second Term Notes</h5>
+            </a>{" "}
+            <a href="https://drive.google.com/u/0/uc?id=1WLD7gWF2IrNlI16HxjJyuV2kZ4aKlZEj&export=download">
+              {" "}
+              <button className="download">Downloud</button>
+            </a>
+          </div>
         </div>
-        <div className="single">
-          <a href="https://drive.google.com/file/d/1Eh5t79uaWwtygqwqIzwrdE8LPEjkTZoF/view">
-            <img className="P-img" src={physicsIMG}></img>
-            <h5>Grade 11 - First Term Notes</h5>
-          </a>
+        <div className="for-the-btn">
+          <div className="single">
+            <a href="https://drive.google.com/file/d/1Eh5t79uaWwtygqwqIzwrdE8LPEjkTZoF/view">
+              <img className="P-img" src={physicsIMG}></img>
+              <h5>Grade 11 - First Term Notes</h5>
+            </a>
+            <a href="https://drive.google.com/u/0/uc?id=1Eh5t79uaWwtygqwqIzwrdE8LPEjkTZoF&export=download">
+              {" "}
+              <button className="download">Downloud</button>
+            </a>
+          </div>
         </div>
         <div className="single">
           <a href="https://www.youtube.com/watch?v=9kLlIRYBWak">
@@ -42,7 +54,7 @@ function physics(props) {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

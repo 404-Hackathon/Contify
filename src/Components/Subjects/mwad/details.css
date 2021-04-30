@@ -1,21 +1,42 @@
-.details {
-  width: 1200px;
-  height: 100vh;
-  background-color: black;
-  border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  padding: 20px;
-}
 .P-img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   padding: 10px;
 }
 .content {
-  border: 3px solid rgb(85, 84, 84);
-  border-radius: 50px;
   display: flex;
+}
+.curved {
+  color: white;
+  text-align: center;
+  position: relative;
+  background: #140f20;
+  height: 50vh;
+  border-bottom-left-radius: 50% 41%;
+  border-bottom-right-radius: 50% 41%;
+}
+.single {
+  margin-left: 45px;
+  text-align: center;
+  color: white;
+  background-color: rgba(36, 36, 36, 0.295);
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.for-the-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download {
+  width: 150px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }

@@ -18,24 +18,31 @@
   text-align: left;
 }
 .single-subject {
-  border: 3px solid rgb(61, 136, 136);
-  background-color: rgb(226, 226, 226);
-  color: black;
+  border: 3px solid rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(61, 31, 73),
+    rgb(53, 175, 149)
+  );
+  color: rgb(255, 255, 255);
   margin: 10px 50px;
   padding: 30px 70px;
   border-radius: 20px;
   font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
 }
 .hr-1 {
-  border-top: 3px solid rgb(77, 25, 136);
-  margin: 1px;
+  color: plum;
 }
 .hr-2 {
-  border-top: 3px solid rgb(132, 241, 255);
+  border-top: 1px solid rgb(132, 241, 255);
   margin: 1px;
 }
 .hr-3 {
-  border-top: 3px solid rgb(238, 228, 87);
+  border-top: 1px solid rgb(238, 228, 87);
   margin: 1px;
 }
